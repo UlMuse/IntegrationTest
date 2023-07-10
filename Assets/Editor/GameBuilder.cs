@@ -15,7 +15,7 @@ BundleVersionPP();
             "Assets/Scenes/SampleScene.unity",
             };
 
-        BuildPipeline.BuildPlayer(defaultScene, "MyGame_" + PlayerSettings.bundleVersion + ".apk" ,
+        BuildPipeline.BuildPlayer(defaultScene, "MyGame.apk" ,
             BuildTarget.Android, BuildOptions.None);
     }
 
